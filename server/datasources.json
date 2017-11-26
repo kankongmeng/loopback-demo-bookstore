@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "loopback_bookstore",
+    "password": "45666564",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "mongoDs": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://root:45666564@loopback-demo-bookstore-shard-00-00-pyfmy.mongodb.net:27017,loopback-demo-bookstore-shard-00-01-pyfmy.mongodb.net:27017,loopback-demo-bookstore-shard-00-02-pyfmy.mongodb.net:27017/loopback_bookstore?ssl=true&replicaSet=loopback-demo-bookstore-shard-0&authSource=admin",
+    "database": "",
+    "password": "",
+    "name": "mongoDs",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
