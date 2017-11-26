@@ -13,3 +13,10 @@ $ npm install<br>
 $ node .<br>
 
 Remark: Please remember to go loopback-demo-bookstore/server/datasource.json to modify you database connection.
+
+Main Page
+![Main Page](https://raw.githubusercontent.com/kankongmeng/loopback-demo-bookstore/master/BookStoreApplication.JPG)
+
+
+Api Explorer Page
+![API Explorer Page](https://raw.githubusercontent.com/kankongmeng/loopback-demo-bookstore/master/BookStoreApplicationAPI.JPG)
