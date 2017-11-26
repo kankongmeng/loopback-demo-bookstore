@@ -1,15 +1,15 @@
 # loopback-demo-bookstore
 
 This is the example bookstore application that created refer from LoopBack.
-- Demo the Basic Loopback application with simple API.
-- Demo how Loopback connect multi datasource, MySQL and MongoDB
+- Basic Loopback application with simple API.
+- Demo how Loopback connect multi datasource, MySQL and MongoDB.
 - Demo simple page with simple function, Login, Logout, Signup.
-- Demo simple read and addd review features.
+- Demo simple read and write review features.
 
-Installation Step:
-$ git clone https://github.com/kankongmeng/loopback-demo-bookstore.git
-$ cd loopback-demo-bookstore
-$ npm install
-$ node .
+Installation Step:<br>
+$ git clone https://github.com/kankongmeng/loopback-demo-bookstore.git<br>
+$ cd loopback-demo-bookstore<br>
+$ npm install<br>
+$ node .<br>
 
 Remark: Please remember to go loopback-demo-bookstore/server/datasource.json to modify you database connection.
