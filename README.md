@@ -1,22 +1,38 @@
 # loopback-demo-bookstore
 
-This is the example bookstore application that created refer from LoopBack.
+### This is the example bookstore application that created refer from LoopBack.
 - Basic Loopback application with simple API.
 - Demo how Loopback connect multi datasource, MySQL and MongoDB.
 - Demo simple page with simple function, Login, Logout, Signup.
 - Demo simple read and write review features.
 
-Installation Step:<br>
-$ git clone https://github.com/kankongmeng/loopback-demo-bookstore.git<br>
-$ cd loopback-demo-bookstore<br>
-$ npm install<br>
-$ node .<br>
 
-Remark: Please remember to go loopback-demo-bookstore/server/datasource.json to modify you database connection.
+### Change The Code! Installation Step Below: <br>
+My main goal for this is to give new programmers some code to look at and talk about.
 
-Main Page
+*Open your terminal*
+```bash
+$ git clone https://github.com/kankongmeng/loopback-demo-bookstore.git
+$ cd loopback-demo-bookstore
+$ npm install
+$ node .
+```
+*Remarks: npm test is for execute Karma-Jasmine and ESLint test.*
+
+
+### Main Page <br>
+Localhost: https://localhost:3000 <br>
 ![Main Page](https://raw.githubusercontent.com/kankongmeng/loopback-demo-bookstore/master/BookStoreApplication.JPG)
 
 
-Api Explorer Page
+### Api Explorer Page <br>
+Localhost: https://localhost:3000 <br>
 ![API Explorer Page](https://raw.githubusercontent.com/kankongmeng/loopback-demo-bookstore/master/BookStoreApplicationAPI.JPG)
+
+
+
+### Deploy?
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+*[learn more about](https://devcenter.heroku.com/articles/app-json-schema)*
